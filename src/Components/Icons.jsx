@@ -19,20 +19,23 @@ function Icons() {
     setCart(false)
    }
  }
+ const handleSettings=()=>{
+  navigate('/Settings')
+ }
 
   return (
    <div className>
      <div className='play'></div>
      <div className='play2'>
-       <ul><IoLogoPlaystation/></ul>
-       <ul><FaXbox/></ul> 
-       <ul> <SiNintendoswitch/></ul>
-       <ul><MdComputer/></ul>
-       <ul style={{paddingTop:'160px'}}><CiSettings/></ul>   
-       <ul style={{marginTop:'-30px', scale:"0.9", left:"4px", color:'#8B0000'}}><FiPower onClick={()=>navigate('/')}/></ul> 
+       <ul><IoLogoPlaystation style={{color:'#ffff',filter: "drop-shadow(0px 0px 10px rgba(0, 0, 0, 1.5))"}}/></ul>
+       <ul><FaXbox    style={{color:"#0e7a0d",filter: "drop-shadow(0px 0px 10px rgba(0, 0, 0, 1.5))"}}/></ul> 
+       <ul> <SiNintendoswitch style={{color:'#fe0016',filter: "drop-shadow(0px 0px 10px rgba(0, 0, 0, 1.5))"}}/></ul>
+       <ul><MdComputer style={{color:'grey',filter: "drop-shadow(0px 0px 10px rgba(0, 0, 0, 1.5))"}}/></ul>
+       <ul style={{paddingTop:'160px',filter: "drop-shadow(0px 0px 10px rgba(0, 0, 0, 1.5))"}}><CiSettings onClick={handleSettings}/></ul>   
+       <ul style={{marginTop:'-30px', scale:"0.9", left:"4px", color:'#8B0000',filter: "drop-shadow(0px 0px 10px rgba(0, 0, 0, 1.5))"}}><FiPower onClick={()=>navigate('/')}/></ul> 
      </div>  
      <div className='shopcart'>
-      <FaOpencart  onClick={handleCart}/>
+      <FaOpencart style={{color:'white',top:'6px', position:'absolute',left:"11px" }} onClick={handleCart}/>
      {itsCart && (<div className='cart'> Cart</div>)}
      
      </div>

@@ -1,28 +1,61 @@
 [
   {   
   "id":1,
-  "img":"https://images.wallpapersden.com/image/download/god-of-war-ragnarok-hd-game-poster_bG5oZmWUmZqaraWkpJRmbmdlrWZlbWU.jpg",
-  "url":"https://youtu.be/EE-4GvjKcfs"
+  "img":"https://apptrigger.com/files/2022/03/God-of-War-Ragnarok-2.jpg",
+  "url":"https://youtu.be/EE-4GvjKcfs",
+  "name":"God of War Ragnarok",
+  "price":"$54"
   },
   {   
   "id":2,
   "img":"https://cdn-ext.fanatical.com/production/product/1280x720/cee6ef17-36d6-4c00-9c6e-5a1093a75a86.jpeg",
-  "url":"https://youtu.be/jVf-lCVYI6k"
+  "url":"https://youtu.be/jVf-lCVYI6k",
+  "name":"XCOM 2",
+  "price":"$34" 
   },
   {   
   "id":3,
   "img":"https://www.infinityward.com/content/dam/atvi/infinityward/iw-touchui/news/feature/mw2-beta-hero.jpg",
-  "url":"https://youtu.be/r72GP1PIZa0"
+  "url":"https://youtu.be/r72GP1PIZa0",
+  "name":"Call of Duty - Modern Warfare",
+  "price":"$40" 
   },
   {   
   "id":4,
   "img":"https://d1w82usnq70pt2.cloudfront.net/wp-content/uploads/2020/05/watch-dogs-2-listing-thumb-01-ps4-us-06jun16.png",
-  "url":"https://youtu.be/hh9x4NqW0Dw"
+  "url":"https://youtu.be/hh9x4NqW0Dw",
+  "name":"Watch-Dogs 2",
+  "price":"$45" 
   },
   
   {
     "id":5,
-    "img":"https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FFar-Cry-6.jpg&signature=527cf6db734288ec65975e9bbc4dc53c"
-   } 
+    "img":"https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4MgHhyrHH13oYwXezEy7Wy/56985f97b3e3cc78e06c67ca0a054b32/FC6_meta-image__1_.jpg",
+    "url":"https://youtu.be/-IJuKT1mHO8",
+    "name":"Far-cry 6",
+    "price":"$49" 
+   },
+   {
+    "id":6,
+    "img":"https://store-images.s-microsoft.com/image/apps.30323.14537704372270848.6ecb6038-5426-409a-8660-158d1eb64fb0.08703491-f5dc-4b00-bca6-486b7b293c17?mode=scale&q=90&h=720&w=1280&background=%23FFFFFF",
+    "url":"https://youtu.be/E3Huy2cdih0",
+    "name":"Elden Ring",
+    "price":"$60" 
+
+   },
+   {
+    "id":7,
+    "img":"https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/capsule_616x353.jpg?t=1670349423",
+    "url":"https://youtu.be/kJawWyRUOBM",
+    "name":"Stray",
+    "price":"$55" 
+   },
+   {
+    "id":8,
+    "img":"https://images.firstpost.com/wp-content/uploads/2021/05/Horizon-forbidden-west.jpg",
+    "url":"https://youtu.be/Lq594XmpPBg",
+    "name":"Horizon-forbidden West",
+    "price":"$54" 
+   }
  
 ]

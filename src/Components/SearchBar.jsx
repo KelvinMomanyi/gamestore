@@ -1,6 +1,7 @@
 import React, { Component, useState, useEffect } from 'react'
 import {BiSearch} from 'react-icons/bi'
 import { InputAdornment, TextField} from '@material-ui/core'
+import Games from './vidi.json'
 
 function SearchBar() {
   const [query, setQuery] = useState('');
@@ -9,6 +10,7 @@ function SearchBar() {
 
   
   // data to be filtered
+  
   const data = [
     'Call of Duty',
     'Fifa 23', 
@@ -43,10 +45,17 @@ function SearchBar() {
      const result = data.filter((item) => item.toLowerCase().includes(value.toLowerCase()));
        setSuggestions(result);
     }
-    
+    // const filteredDataWithImages = filterData.map((item) => {
+    //   return {
+    //     ...item,
+    //     images: data.find((x) => x.img=== item.img).images,
+    //   };
+    // });
+  
+    // return filteredDataWithImages;
+  
   };
-
-
+ 
    
   return (
     <div className='searchbar'>
